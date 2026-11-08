@@ -1,0 +1,8 @@
+{
+  "type": "scene",
+  "objects": [
+    "Player",
+    "Crate",
+    "Tree"
+  ]
+}

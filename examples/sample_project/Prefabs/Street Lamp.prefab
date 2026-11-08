@@ -1,0 +1,14 @@
+{
+  "type": "prefab",
+  "color": [
+    0.95,
+    0.85,
+    0.4,
+    1
+  ],
+  "components": [
+    "Transform",
+    "Point Light"
+  ],
+  "name": "Street Lamp"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "material",
+  "base_color": [
+    0.85,
+    0.86,
+    0.88,
+    1
+  ],
+  "roughness": 0.06,
+  "metallic": 1.0,
+  "emission": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "emission_strength": 0.0
+}

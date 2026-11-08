@@ -1,0 +1,15 @@
+{
+  "type": "prefab",
+  "color": [
+    0.4,
+    0.8,
+    0.45,
+    1
+  ],
+  "components": [
+    "Transform",
+    "Mesh Renderer",
+    "Wind Zone"
+  ],
+  "name": "Tree"
+}

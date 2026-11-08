@@ -1,0 +1,15 @@
+{
+  "type": "prefab",
+  "color": [
+    0.85,
+    0.62,
+    0.3,
+    1
+  ],
+  "components": [
+    "Transform",
+    "Mesh Renderer",
+    "Rigidbody"
+  ],
+  "name": "Crate"
+}

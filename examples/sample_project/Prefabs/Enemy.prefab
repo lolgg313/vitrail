@@ -1,0 +1,15 @@
+{
+  "type": "prefab",
+  "color": [
+    1.0,
+    0.42,
+    0.38,
+    1
+  ],
+  "components": [
+    "Transform",
+    "AI Agent",
+    "Health"
+  ],
+  "name": "Enemy"
+}

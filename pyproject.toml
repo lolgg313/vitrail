@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vitrail"
+version = "0.3.0"
+description = "Vitrail: GPU-rendered UI toolkit for pygame + ModernGL - widgets, menus, tree view, file dialogs, node editor, animation timeline, asset browser, Material components, icons"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Hamid Reza Jahanshahi (S.U.P.E)" }]
+requires-python = ">=3.9"
+dependencies = [
+    "moderngl>=5.8",
+    "pygame>=2.1.3",   # pygame-ce works too: install it and skip this one
+]
+keywords = ["pygame", "moderngl", "opengl", "gui", "ui", "widgets", "gamedev", "node-editor", "blueprint", "material", "file-dialog", "animation", "timeline", "asset-browser"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Games/Entertainment",
+]
+
+[project.urls]
+Homepage = "https://github.com/lolgg313/vitrail"
+Source = "https://github.com/lolgg313/vitrail"
+Issues = "https://github.com/lolgg313/vitrail/issues"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["vitrail"]

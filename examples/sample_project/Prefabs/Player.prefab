@@ -1,0 +1,15 @@
+{
+  "type": "prefab",
+  "color": [
+    0.36,
+    0.66,
+    1.0,
+    1
+  ],
+  "components": [
+    "Transform",
+    "Character Controller",
+    "Animator"
+  ],
+  "name": "Player"
+}
